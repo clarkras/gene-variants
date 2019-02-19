@@ -1,0 +1,45 @@
+.App-container {
+  padding: 80px;
+  background-color: #282c34;
+  color: black;
+  min-height: 100vh;
+}
+
+.variants-table-container {
+  background-color: white;
+}
+
+.rt-thead {
+  font-size: 16px;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: cadetblue;
+}
+
+.rt-tbody {
+  font-size: 14px;
+  color: darkslategray;
+}
+
+.rt-tbody > .rt-tr-group > div:first-child {
+  color: lightslategray;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown-container > div {
+  width: 500px;
+}
+
+.select-container {
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+.select-container h3 {
+  color: cadetblue;
+  margin: 0 0 2px 0;
+}

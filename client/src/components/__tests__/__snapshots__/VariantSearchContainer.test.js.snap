@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    className="dropdown-container"
+  >
+    <div
+      className="select-container"
+    >
+      <h3>
+        Gene
+      </h3>
+      <Select
+        inputValue=""
+        onChange={[Function]}
+        onInputChange={[Function]}
+        options={Array []}
+        placeholder="Enter gene..."
+      />
+    </div>
+    <div
+      className="select-container"
+    >
+      <h3>
+        Group by
+      </h3>
+      <Select
+        defaultValue={
+          Object {
+            "label": "Alias",
+            "value": "Alias",
+          }
+        }
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "No grouping",
+              "value": "",
+            },
+            Object {
+              "label": "Alias",
+              "value": "Alias",
+            },
+            Object {
+              "label": "Protein Change",
+              "value": "ProteinChange",
+            },
+            Object {
+              "label": "Nucleotide Change",
+              "value": "NucleotideChange",
+            },
+            Object {
+              "label": "Region",
+              "value": "Region",
+            },
+            Object {
+              "label": "Reported Classification",
+              "value": "ReportedClassification",
+            },
+          ]
+        }
+        placeholder="Select group column"
+      />
+    </div>
+  </div>
+  <div
+    className="variants-table-container"
+  >
+    <ReactTable
+      className="-striped -highlight"
+      columns={
+        Array [
+          Object {
+            "Header": "Nucleotide Change",
+            "accessor": "NucleotideChange",
+          },
+          Object {
+            "Header": "Protein Change",
+            "accessor": "ProteinChange",
+          },
+          Object {
+            "Header": "Alias",
+            "accessor": "Alias",
+          },
+          Object {
+            "Header": "Region",
+            "accessor": "Region",
+          },
+          Object {
+            "Header": "Reported Classification",
+            "accessor": "ReportedClassification",
+          },
+          Object {
+            "Header": "Last Evaluated",
+            "accessor": "LastEvaluated",
+          },
+          Object {
+            "Header": "Last Updated",
+            "accessor": "LastUpdated",
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "More Info",
+            "accessor": "Source",
+          },
+        ]
+      }
+      data={Array []}
+      pivotBy={Array []}
+    />
+  </div>
+</div>
+`;

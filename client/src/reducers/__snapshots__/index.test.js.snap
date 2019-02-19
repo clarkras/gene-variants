@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles SELECT_GENE 1`] = `
+Object {
+  "foo": 123,
+  "selectedGene": undefined,
+}
+`;
+
+exports[`handles SET_VARIANTS 1`] = `
+Object {
+  "foo": 123,
+  "variants": Array [
+    "variant_1",
+    "variant_2",
+  ],
+}
+`;
+
+exports[`has the correct initial state 1`] = `
+Object {
+  "genes": Array [],
+  "groupBy": "Alias",
+  "selectedGene": null,
+  "variants": Array [],
+}
+`;
